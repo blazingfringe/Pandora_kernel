@@ -1,0 +1,1 @@
+cmd_drivers/i2c/chips/built-in.o :=  /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/i2c/chips/built-in.o drivers/i2c/chips/bma250_without_Ecompass.o drivers/i2c/chips/cm3628.o drivers/i2c/chips/tps65200.o 

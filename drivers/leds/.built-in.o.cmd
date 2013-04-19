@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.o :=  /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/leds/built-in.o drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/leds-msm-pmic.o drivers/leds/leds-pm8029.o drivers/leds/leds-msm-pdm.o 

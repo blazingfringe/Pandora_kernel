@@ -1,0 +1,1 @@
+cmd_drivers/media/common/tuners/xc5000.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o drivers/media/common/tuners/xc5000.ko drivers/media/common/tuners/xc5000.o drivers/media/common/tuners/xc5000.mod.o

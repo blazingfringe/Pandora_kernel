@@ -1,0 +1,3 @@
+kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko
+kernel/drivers/net/kineto_gan.ko
+kernel/drivers/net/tun.ko
