@@ -368,7 +368,6 @@ static struct clkctl_acpu_speed pll0_960_pll1_245_pll2_1200_pll4_800_25a[] = {
 { 1, 600000, ACPU_PLL_2, 2, 1, 75000, 3, 6, 200000 },
 { 1, 737000, ACPU_PLL_2, 2, 1, 80000, 3, 7, 200000  },
 { 1, 800000, ACPU_PLL_2, 2, 1, 100000, 3, 7, 200000 },
-{ 1, 960000, ACPU_PLL_2, 2, 1, 110000, 3, 7, 200000 },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0} }
 };
 
@@ -650,7 +649,7 @@ clk_div = (reg_clksel >> 1) & 0x03;
 src_sel = reg_clksel & 1;
 
 /* Perform the Overclock */
-if(hunt_s->a11clk_khz == 960000) {
+if(hunt_s->a11clk_khz == 800000) {
                  writel(PLL_OC_MHZ, PLLn_L_VAL(2)); /* This is where real Overclock happens */
                  udelay(50);
 }
