@@ -3270,10 +3270,9 @@ static int handle_exception(struct kvm_vcpu *vcpu)
 	    handle_rmode_exception(vcpu, intr_info & INTR_INFO_VECTOR_MASK,
 								error_code)) {
 		if (vcpu->arch.halt_request) {
-			vcpu->arch.halt_request = 0;
-			return kvm_emulate_halt(vcpu);
-		}
-		return 1;
+                    vcpu->arch.halt_request = 0;
+                    ret = kvm_emulate_halt(vcpu);
+                    goto out; 
 	}
 
 	ex_no = intr_info & INTR_INFO_VECTOR_MASK;
