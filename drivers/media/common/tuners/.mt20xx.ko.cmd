@@ -1,1 +1,0 @@
-cmd_drivers/media/common/tuners/mt20xx.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o drivers/media/common/tuners/mt20xx.ko drivers/media/common/tuners/mt20xx.o drivers/media/common/tuners/mt20xx.mod.o

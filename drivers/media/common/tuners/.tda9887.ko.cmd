@@ -1,1 +1,0 @@
-cmd_drivers/media/common/tuners/tda9887.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o drivers/media/common/tuners/tda9887.ko drivers/media/common/tuners/tda9887.o drivers/media/common/tuners/tda9887.mod.o

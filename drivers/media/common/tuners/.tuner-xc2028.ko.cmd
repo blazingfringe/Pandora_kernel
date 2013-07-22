@@ -1,1 +1,0 @@
-cmd_drivers/media/common/tuners/tuner-xc2028.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o drivers/media/common/tuners/tuner-xc2028.ko drivers/media/common/tuners/tuner-xc2028.o drivers/media/common/tuners/tuner-xc2028.mod.o

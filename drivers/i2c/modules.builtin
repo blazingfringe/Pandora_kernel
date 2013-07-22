@@ -1,6 +1,0 @@
-kernel/drivers/i2c/i2c-core.ko
-kernel/drivers/i2c/i2c-dev.ko
-kernel/drivers/i2c/busses/i2c-qup.ko
-kernel/drivers/i2c/chips/bma250_without_Ecompass.ko
-kernel/drivers/i2c/chips/cm3628.ko
-kernel/drivers/i2c/chips/tps65200.ko

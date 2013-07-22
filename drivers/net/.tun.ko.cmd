@@ -1,1 +1,0 @@
-cmd_drivers/net/tun.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o drivers/net/tun.ko drivers/net/tun.o drivers/net/tun.mod.o

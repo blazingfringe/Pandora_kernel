@@ -1,1 +1,0 @@
-cmd_crypto/md4.ko := /home/ayushrox/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ayushrox/Desktop/ics/kernel/htc/pico/scripts/module-common.lds --build-id  -o crypto/md4.ko crypto/md4.o crypto/md4.mod.o
