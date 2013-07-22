@@ -51,10 +51,6 @@
 
 #include <linux/android_alarm.h>
 
-#ifdef CONFIG_FORCE_FAST_CHARGE
-#include <linux/fastchg.h>
-#endif
-
 static struct wake_lock vbus_wake_lock;
 
 enum {
