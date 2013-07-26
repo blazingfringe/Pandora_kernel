@@ -375,8 +375,7 @@ static struct clkctl_acpu_speed pll0_960_pll1_245_pll2_1200_pll4_800_25a[] = {
         { 1, 828000, ACPU_PLL_2, 2, 1, 99000, 3, 7, 200000 },
         { 1, 844000, ACPU_PLL_2, 2, 1, 102000, 3, 7, 200000 },
 	{ 1, 878000, ACPU_PLL_2, 2, 1, 104000, 3, 7, 200000 },
-        { 1, 900000, ACPU_PLL_2, 2, 1, 108000, 3, 7, 200000 },
-        { 1, 920000, ACPU_PLL_2, 2, 2, 110000, 3, 7, 200000 },/* <= This frequency is disabled because Class 4 SDcards can't handle it */
+        { 1, 900000, ACPU_PLL_2, 2, 1, 108000, 3, 7, 200000 },/* <= This frequency is disabled because Class 4 SDcards can't handle it */
         /* END overclocked frequencies */
 	{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0} }
 };
