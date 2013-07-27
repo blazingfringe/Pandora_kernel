@@ -1,0 +1,2 @@
+kernel/drivers/input/touchscreen/cy8c_tma_ts.ko
+kernel/drivers/input/touchscreen/himax8526a.ko
