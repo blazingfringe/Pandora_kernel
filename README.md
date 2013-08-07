@@ -1,6 +1,6 @@
-This is Modified Linux Kernel 3.0.16 for HTC Explorer named PANDORA
+This is Modified Linux Kernel 3.0.82 for HTC Explorer named PANDORA
 
-Its has been OC'd upto a max frequency of 800 mhz and it is confirmed that it DOES NOT burn NAND 
+Its has been OC'd upto a max frequency of 900 mhz and it is confirmed that it DOES NOT burn NAND 
   
 The Kernel is written for using with Android Ice Cream Sandwichand JB version ONLY.
 This includes Sense 4, CM 9, CM 9.1, AOKP ICS, EVERVOLV ICS and all other ICS derived roms respectively.
@@ -24,7 +24,7 @@ NOT WORKING
 BUGS
 ====
 
-- UMS 
+- Nothing
 
 COMPILING
 =========
